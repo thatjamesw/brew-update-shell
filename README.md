@@ -52,16 +52,16 @@ Upgrade casks that normally auto-update themselves.
 
 ### Examples
 #### Standard update, upgrade, clean
-./brew-refresh.sh
+`./brew-refresh.sh`
 
 #### Preview cleanup without deleting anything
-./brew-refresh.sh --dry-run
+`./brew-refresh.sh --dry-run`
 
 #### Aggressive clean and include auto-updating apps
-./brew-refresh.sh --prune-all --greedy
+`./brew-refresh.sh --prune-all --greedy`
 
 #### Only update & upgrade formulae (no apps)
-./brew-refresh.sh --no-cask
+`./brew-refresh.sh --no-cask`
 
 # Troubleshooting
 
